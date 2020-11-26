@@ -1,0 +1,22 @@
+.form-wrap {
+  max-width: 400px;
+  width: 100%;
+  background-color: #a5a5a5;
+  border-radius: 4px;
+  padding: 10px;
+
+  //Первое решение
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
+
+  //Второе решение
+  //Задать классу .container {display: table-cell; vertical-align: middle;}
+  // при условии что высота у него будет больше высоты самого блока с формой(иначе просто не будет видно)
+
+  //Третье решение
+  //Задать классу .container {display: flex;
+  //  justify-content: center;
+  //  align-items:center} при условии что высота у него будет больше высоты самого блока с формой(иначе просто не будет видно)
+}
