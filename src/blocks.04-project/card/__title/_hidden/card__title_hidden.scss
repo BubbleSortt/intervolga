@@ -1,0 +1,11 @@
+.card__title_hidden {
+  &::after {
+    content: "";
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, transparent, #fff 50%);
+  }
+}
