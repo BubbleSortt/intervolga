@@ -1,0 +1,20 @@
+.call-input {
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+
+  margin-bottom: 40px;//Вообще блокам нельзя задавать внеюшнюю геометрию, но я считерил)
+
+  &:hover {
+    box-shadow: none;
+    background-color: whitesmoke;
+  }
+
+  img {
+    width: 15px;
+  }
+}
