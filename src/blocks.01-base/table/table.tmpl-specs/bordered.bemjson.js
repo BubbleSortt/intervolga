@@ -1,5 +1,5 @@
 module.exports = [
-  {block: 'table', cls: 'table-bordered', content: [
+  {block: 'table', cls: 'table-1-bordered', content: [
       {elem: 'thead', content: [
           {elem: 'tr', content: [
               {elem: 'th', content: 'Заголовок'},

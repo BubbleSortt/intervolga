@@ -1,0 +1,10 @@
+.table-1 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  th,td {
+    text-align: center;
+    width: 25vw;
+  }
+}
