@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       input.removeAttribute('disabled');
       input.setAttribute('placeholder', 'Артем Звездилин');
+      input.focus();
 
       submitBlack.classList.add('hidden');
       submitWhite.classList.remove('hidden');
