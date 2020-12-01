@@ -1,7 +1,9 @@
 .form__input {
-  background-color: #1f1e1e;
+  background-color: whitesmoke;
   border: none;
-  padding: 7px 35px;
+  padding: 4px 0;
   color: whitesmoke;
-  border-radius: 3px;
+  border-radius: 50%;
+  width: 33px;
+  transition: all .5s;
 }

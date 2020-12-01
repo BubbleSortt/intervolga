@@ -6,24 +6,31 @@ module.exports = {
       cls: 'container',
       content: [
         {
-          block: 'call-input',
-          tag: 'button',
-          content: [
-            {tag: 'img', attrs: {src: './images/search-black.svg'}},
-          ],
-        },
-        {
-          block: 'search-wrap',
+          block: 'form',
           content: [
             {
-              block: 'form',
-              mix: {block: 'search-wrap', elem: 'item'},
+              elem: 'field',
               content: [
-                {tag: 'input', elem: 'input', attrs: {type: 'text', placeholder: 'Артем Звездилин'}},
-                {tag: 'button', elem: 'submit', attrs: {type: 'submit'},
-                content: [
-                  {tag: 'img', attrs: {src: './images/search-white.svg'}},
-                ]},
+                {
+                  tag: 'input',
+                  elem: 'input',
+                  mix: {block: 'form', elem: 'input', elemMods: {disabled: true}},
+                  attrs: {type: 'search', disabled: true},
+                },
+                {
+                  tag: 'button',
+                  elem: 'submit',
+                  mix: {block: 'form', elem: 'submit', elemMods: {disabled: true}},
+                  attrs: {'type': 'submit', 'data-call-input': 'true'},
+                  content: [
+                    {
+                      tag: 'img',
+                      cls: 'search-black',
+                      attrs: {'src': './images/search-black.svg', 'data-call-input': 'true'},
+                    },
+                    {tag: 'img', cls: 'search-white hidden', attrs: {src: './images/search-white.svg'}},
+                  ],
+                },
               ],
             },
           ],

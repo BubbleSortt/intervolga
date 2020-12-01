@@ -1,0 +1,11 @@
+.form__field {
+  width: fit-content;
+  border: 1px solid transparent;
+  border-radius: 50%;
+
+  &:hover {
+    .form__input {
+      box-shadow: none;
+    }
+  }
+}

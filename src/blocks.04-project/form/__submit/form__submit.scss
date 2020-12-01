@@ -1,13 +1,15 @@
 .form__submit {
   background-color: transparent;
-  border: none;
-  width: 30px;
+  width: 35px;
+  height: 32px;
   padding: 2px;
   position: absolute;
   left: 0;
-  height: 100%;
-
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 50%;
   img {
     width: 20px;
+    vertical-align: sub;
   }
 }
