@@ -1,0 +1,19 @@
+.card {
+  height: 300px;
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+  
+  &:after {
+    content: 'sale';
+    position: absolute;
+    width: 80%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    right: -65px;
+    top: 10px;
+    transform: rotate(45deg);
+  }
+}
