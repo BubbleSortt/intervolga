@@ -1,0 +1,16 @@
+.field {
+  margin: 40px auto 0 auto;
+  width: fit-content;
+  position: relative;
+
+  &__input:focus {
+      padding: 8px 0;
+  }
+
+  &__input:focus ~ .field__label {
+    top: -10px;
+    font-size: 13px;
+  }
+
+}
+
