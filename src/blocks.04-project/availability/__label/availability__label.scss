@@ -1,0 +1,19 @@
+.availability__label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  margin: 0;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+}

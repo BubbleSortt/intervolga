@@ -1,0 +1,13 @@
+.range__preview {
+  display: flex;
+  justify-content: space-between;
+
+  input {
+    border: 1px solid  #F34841;
+    border-radius: 4px;
+    width: 35%;
+    text-align: center;
+    padding: 0;
+    font-size: 14px;
+  }
+}

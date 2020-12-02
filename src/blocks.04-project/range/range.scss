@@ -1,0 +1,43 @@
+@import "~ion-rangeslider/css/ion.rangeSlider.min.css";
+
+.irs--round .irs-handle {
+  border: none;
+  top: 32px;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+.irs-from,
+.irs-to,
+.irs-min,
+.irs-max {
+  display: none;
+}
+
+.irs--round {
+  height: 38px;
+  top: -21px;
+}
+
+.irs--round .irs-single,
+.irs--round .irs-bar,
+{
+  background-color: #F34841;
+}
+
+.irs--round .irs-single:before {
+  border-top-color: #F34841;
+}
+
+.irs--round .irs-bar {
+  height: 7px;
+  top: 37px;
+}
+
+.irs--round .irs-line {
+  height: 9px;
+  border-radius: 2px;
+  border: 1px solid #bebebe;
+  background-color: transparent;
+}
