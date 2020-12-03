@@ -1,0 +1,24 @@
+{
+  "model": [
+    {
+      "id": "-1",
+      "text": "Не выбрано"
+    },
+    {
+      "id": "model-x",
+      "text": "model-x"
+    },
+    {
+      "id": "model-s",
+      "text": "model-s"
+    },
+    {
+      "id": "cybertruck",
+      "text": "cybertruck"
+    },
+    {
+      "id": "roadster",
+      "text": "roadster"
+    }
+  ]
+}
