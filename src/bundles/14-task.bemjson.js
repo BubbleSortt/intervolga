@@ -18,15 +18,14 @@ module.exports = {
           content: 'aside 1',
         },
         {
-          tag: 'main', block: 'main', mix: {block: 'page', elem: 'main'},
+          tag: 'main', block: 'main', cls: 'clearfix', mix: {block: 'page', elem: 'main'},
           content: [
             {
               tag: 'img',
-              block: 'main-content',
-              mix: {block: 'main', elem: 'content'},
+              mix: {block: 'main', elem: 'img'},
               attrs: {src: './images/Back.jpg', width: '200px'},
             },
-            'Это main',
+            {tag: 'p', elem: 'text', content: 'Это main'},
           ],
         },
         {
